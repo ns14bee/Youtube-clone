@@ -3,27 +3,12 @@
 </template>
 
 <script>
+import mixin from "./util/themeMixin.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap";
-import { mapGetters } from "vuex";
-//
 export default {
 	name: "App",
-	computed: {
-		...mapGetters("theme", {
-			theme: "getTheme",
-			imgLink: "getImgLink",
-			cssLink: "getCssLink",
-		}),
-	},
-	mounted() {
-		var element = document.getElementById("theme-style");
-		element.setAttribute("href", `${this.cssLink}`);
-	},
-	updated() {
-		var element = document.getElementById("theme-style");
-		element.setAttribute("href", `${this.cssLink}`);
-	},
+	mixins: [mixin],
 };
 </script>
 

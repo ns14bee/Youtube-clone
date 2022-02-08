@@ -7,7 +7,8 @@ export default {
     namespaced: true,
     state(){
         return {
-            dark: ls.get('dark') || false
+            dark: ls.get('dark') || false,
+            collapse: true,
         };
     },
     mutations,

@@ -5,6 +5,7 @@ export default{
 			theme: "getTheme",
 			imgLink: "getImgLink",
 			cssLink: "getCssLink",
+			checkCollapse: "getCollapse"
 		}),
 	},
 }

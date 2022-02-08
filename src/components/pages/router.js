@@ -1,5 +1,6 @@
 import Error from './errors/Error.vue';
 import Home from './Home.vue'
+import Demo from './demo.vue'
 
 import store from '../../store/store.js'
 store.getters.config;
@@ -21,6 +22,10 @@ const routes = [
         path: "/home",
         name: "main-home",
         component: Home,
+    },{
+        path: "/demo",
+        name: "demo",
+        component: Demo,
     }
 ]
 

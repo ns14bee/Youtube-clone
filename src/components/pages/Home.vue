@@ -1,36 +1,24 @@
 <template>
-	<div class="nav-body b">
-		<div>hey</div>
-		<div>{{ theme }} {{ imgLink }} {{ cssLink }}</div>
-		<div><img :src="imgLink + '/bars.svg'" /></div>
-		<button class="btn btn-primary" @click="changeTheme">Change</button>
+	<div>
+		<navbar />
+		<div class="d-flex">
+			<sidebar v-if="checkCollapse" />
+			<home-body />
+		</div>
 	</div>
 </template>
 
 <script>
-import { mapGetters } from "vuex";
+import Navbar from "../Include/Navbar.vue";
+import Sidebar from "../Include/Sidebar.vue";
+import HomeBody from "./Home-Body.vue";
 import mixin from "../../util/themeMixin.js";
 export default {
 	mixins: [mixin],
-	computed: {
-		...mapGetters("theme", {
-			theme: "getTheme",
-			imgLink: "getImgLink",
-			cssLink: "getCssLink",
-		}),
-	},
-	methods: {
-		changeTheme() {
-			this.$store.dispatch("theme/changeTheme", !this.theme);
-		},
-	},
-	mounted() {
-		var element = document.getElementById("theme-style");
-		element.setAttribute("href", `${this.cssLink}`);
-	},
-	updated() {
-		var element = document.getElementById("theme-style");
-		element.setAttribute("href", `${this.cssLink}`);
+	components: {
+		Navbar,
+		Sidebar,
+		HomeBody,
 	},
 };
 </script>

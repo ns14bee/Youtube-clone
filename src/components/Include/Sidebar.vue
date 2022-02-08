@@ -1,5 +1,5 @@
 <template>
-	<div class="sidebar d-flex flex-row">
+	<div class="sidebar" id="collapseSidebar">
 		<div class="sidebar-body">
 			<side-header />
 			<subscriptions />

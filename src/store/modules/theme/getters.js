@@ -15,5 +15,8 @@ export default {
         }else{
             return 'css/style_light_min.css';
         }
+    },
+    getCollapse: (state) => {
+        return state.collapse;
     }
 };

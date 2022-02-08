@@ -161,7 +161,13 @@
 									</div>
 									<div
 										class="profile-section-link-dropdown link-dropdown-logo d-flex-end"
-									></div>
+									>
+										<img
+											:src="`${imgLink}/right-arrow.svg`"
+											alt="drop-right"
+											class="icon-item"
+										/>
+									</div>
 								</a>
 
 								<a
@@ -183,7 +189,13 @@
 									</div>
 									<div
 										class="profile-section-link-dropdown link-dropdown-logo d-flex-end"
-									></div>
+									>
+										<img
+											:src="`${imgLink}/right-arrow.svg`"
+											alt="drop-right"
+											class="icon-item"
+										/>
+									</div>
 								</a>
 								<a
 									href="#"
@@ -204,7 +216,13 @@
 									</div>
 									<div
 										class="profile-section-link-dropdown link-dropdown-logo d-flex-end"
-									></div>
+									>
+										<img
+											:src="`${imgLink}/right-arrow.svg`"
+											alt="drop-right"
+											class="icon-item"
+										/>
+									</div>
 								</a>
 								<a
 									href="#"
@@ -309,7 +327,13 @@
 									<div class="profile-section-link-img"></div>
 									<div
 										class="profile-section-link-dropdown link-dropdown-logo d-flex-end"
-									></div>
+									>
+										<img
+											:src="`${imgLink}/right-arrow.svg`"
+											alt="drop-right"
+											class="icon-item"
+										/>
+									</div>
 								</a>
 							</div>
 						</div>

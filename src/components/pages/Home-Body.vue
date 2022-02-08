@@ -1,16 +1,17 @@
 <template>
 	<div class="main-body d-flex flex-column">
-		<div class="videos-main-body d-flex">
-			<video-item />
-		</div>
+		<tags />
+		<video-item />
 	</div>
 </template>
 
 <script>
 import VideoItem from "./videos/VideoItem.vue";
+import Tags from "./Tags.vue";
 export default {
 	components: {
 		VideoItem,
+		Tags,
 	},
 };
 </script>
