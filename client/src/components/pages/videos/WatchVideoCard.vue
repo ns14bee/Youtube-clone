@@ -8,6 +8,7 @@
 		"
 		class="video-link"
 	>
+		<!-- <a href="#" class="video-link"> -->
 		<div
 			class="c-card-main card d-flex"
 			:class="{ 'flex-row': horizontal }"
@@ -85,6 +86,7 @@
 			</div>
 		</div>
 	</a>
+	<!-- </a> -->
 </template>
 
 <script>

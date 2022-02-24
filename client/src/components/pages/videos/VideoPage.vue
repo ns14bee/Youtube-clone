@@ -6,6 +6,7 @@
 				:option="option"
 				class="video-player"
 				v-if="loaded"
+				ref="videoPlayer"
 			/>
 			<div class="d-flex flex-column w-100 video-page-desc-body">
 				<div class="d-flex flex-column w-100">
@@ -442,6 +443,10 @@ export default {
 			} catch (err) {
 				console.log(err);
 			}
+		},
+		redirectVideo(id) {
+			// this.$router.push({ name: "watch-video", params: { videoID: id } });
+			console.log(id);
 		},
 	},
 
