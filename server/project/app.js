@@ -13,6 +13,7 @@ const rating = require('./controllers/rating.controller');
 const channel = require('./controllers/channel.controller');
 const subscription = require('./controllers/subscription.controller');
 const playlist = require('./controllers/playlist.controller');
+const history = require('./controllers/video.history.controller');
 
 
 require('dotenv').config();
@@ -56,7 +57,7 @@ app.use("/ratings",rating);
 app.use("/channel",channel);
 app.use("/subscription",subscription);
 app.use("/playlist",playlist);
-
+app.use("/history",history);
 
 
 app.listen(port,(req,res) => {

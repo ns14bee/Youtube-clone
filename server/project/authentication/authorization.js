@@ -87,7 +87,7 @@ const authProfile = (permissions) => {
 const authChannel = (permissions) => {
     return async (req,res,next) => {
         const userId = parseInt(req.decoded.id);
-        const channel = await channelModel.findOne({_id: req.params.id});
+        const channel = await channelModel.findOne({_id: parseInt(req.params.id) });
         if(channel){
             if(userId == channel.User){
                 next();

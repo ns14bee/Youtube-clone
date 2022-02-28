@@ -1,6 +1,11 @@
 import api  from './api.js';
 const url = "videos/";
 
+let config = {
+        header : {
+            'Content-Type' : 'multipart/form-data'
+        }
+    }
 class VideoService{
 
     //get all videos
@@ -52,6 +57,16 @@ class VideoService{
     static UpdateVideoView = async (id) => {
         try{
             const res = await api().put(`${url}video/${id}`);
+            return res;
+        }catch(err){
+            return err.response;
+        }
+    }
+
+    // upload video 
+    static UploadVideo = async (id,data) => {
+        try{
+            const res = await api().post(`${url}channel/${id}/upload`,data,config);
             return res;
         }catch(err){
             return err.response;

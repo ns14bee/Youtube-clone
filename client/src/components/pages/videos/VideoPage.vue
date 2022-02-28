@@ -1,13 +1,23 @@
 <template>
 	<div class="video-page-main-body d-flex">
 		<div class="video-player-body d-flex flex-column align-items-center">
-			<Artplayer
+			<!-- <Artplayer
 				@get-instance="getInstance"
 				:option="option"
 				class="video-player"
 				v-if="loaded"
 				ref="videoPlayer"
-			/>
+			/> -->
+			<vue3-video-player
+				:src="video.Video"
+				title="test"
+				class="video-player"
+				@play="VideoPlay"
+				v-if="loaded"
+				ref="videoPlayer"
+				id="videoPlayer"
+			>
+			</vue3-video-player>
 			<div class="d-flex flex-column w-100 video-page-desc-body">
 				<div class="d-flex flex-column w-100">
 					<div class="video-page-title">
@@ -186,14 +196,15 @@ import WatchVideoCard from "./WatchVideoCard.vue";
 import VideoService from "../../../services/VideoService.js";
 import ChannelService from "../../../services/ChannelService.js";
 import SubscriptionService from "../../../services/SubscriptionService.js";
+import HistoryService from "../../../services/HistoryService.js";
 import RatingService from "../../../services/RatingService.js";
-import Artplayer from "artplayer/examples/vue/Artplayer";
+// import Artplayer from "artplayer/examples/vue/Artplayer";
 import options from "../../../util/videoOption.js";
 export default {
 	mixins: [ThemeMixin, CommonMixin],
 	components: {
 		WatchVideoCard,
-		Artplayer,
+		// Artplayer,
 	},
 	data() {
 		return {
@@ -215,6 +226,7 @@ export default {
 			dislike: false,
 			likes: 0,
 			dislikes: 0,
+			currentTime: 0,
 		};
 	},
 	methods: {
@@ -284,6 +296,7 @@ export default {
 						this.option.poster = res.data.Thumbnail;
 						this.option.title = res.data.Title;
 						// this.forceRerender(res.data._id);
+						this.setCurrentTime(res.data._id);
 						this.loaded = true;
 						console.log(this.video);
 					} else {
@@ -448,6 +461,34 @@ export default {
 			// this.$router.push({ name: "watch-video", params: { videoID: id } });
 			console.log(id);
 		},
+		VideoPlay() {
+			console.log("play");
+			this.getCurTime();
+			console.log(this.$refs.videoPlayer.$player.$video.currentTime);
+		},
+		VideoStop() {
+			console.log("stop");
+		},
+		getCurTime() {
+			let vid = document.getElementById("videoPlayer");
+			console.log(vid);
+		},
+		async setCurrentTime(id) {
+			try {
+				if (this.auth) {
+					let history = await HistoryService.getHistoryByVideo(id);
+					console.log(history.data);
+					if (history.status == 200) {
+						this.$refs.videoPlayer.$player.$video.currentTime =
+							history.data.Duration;
+					} else {
+						console.log(history.data.message);
+					}
+				}
+			} catch (err) {
+				console.log(err);
+			}
+		},
 	},
 
 	created() {
@@ -464,6 +505,39 @@ export default {
 	},
 	mounted() {
 		this.scrollTrigger();
+	},
+	async beforeUnmount() {
+		if (this.auth) {
+			try {
+				let duration = Math.ceil(
+					parseInt(this.$refs.videoPlayer.$player.$video.duration)
+				);
+				let ct = Math.ceil(
+					parseInt(
+						this.$refs.videoPlayer.$player.$video.currentTime
+					) || 0
+				);
+				if (ct == duration) {
+					ct = 0;
+				}
+				console.log();
+				let data = {
+					Duration: ct,
+				};
+				console.log(data);
+				let history = await HistoryService.UpdateHistory(
+					this.video._id,
+					data
+				);
+				if (history.status == 200) {
+					console.log(history.data);
+				} else {
+					console.log(history.data.message);
+				}
+			} catch (err) {
+				console.log(err);
+			}
+		}
 	},
 };
 </script>

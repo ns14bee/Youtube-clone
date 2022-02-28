@@ -1,33 +1,41 @@
 <template>
-	<div class="videos-main-body">
-		<video-item
-			v-for="(item, index) in videos"
-			:key="index"
-			:video="item"
-		/>
-		<div ref="infiniteScrollTrigger" id="scroll-trigger"></div>
-		<div class="circle-loader" v-if="showLoader"></div>
+	<div class="video-page-main-body d-flex justify-content-start">
+		<div v-if="!auth">No Data</div>
+		<div class="m-5 p-5" else>Watch history</div>
+		<div class="mt-2">
+			<watch-video-card
+				v-for="(item, index) in historyList"
+				:key="index"
+				:video="item.Video"
+				:name="true"
+				:horizontal="true"
+				class="mx-2 my-2"
+			/>
+			<div ref="infiniteScrollTrigger" id="scroll-trigger"></div>
+			<div class="circle-loader" v-if="showLoader"></div>
+		</div>
 	</div>
 </template>
 
 <script>
-import VideoItem from "./VideoCard.vue";
-import VideoService from "../../../services/VideoService.js";
 import ThemeMixin from "../../../util/themeMixin.js";
 import CommonMixin from "../../../util/commonMixin.js";
+import HistoryService from "../../../services/HistoryService.js";
+import WatchVideoCard from "./WatchVideoCard.vue";
 export default {
 	mixins: [ThemeMixin, CommonMixin],
 	data() {
 		return {
-			videos: [],
+			historyList: [],
+			loaded: false,
 			page: 1,
-			limit: 12,
+			limit: 10,
 			total: 1,
 			showLoader: false,
 		};
 	},
 	components: {
-		VideoItem,
+		WatchVideoCard,
 	},
 	methods: {
 		scrollTrigger() {
@@ -37,10 +45,11 @@ export default {
 						this.showLoader = true;
 						setTimeout(async () => {
 							try {
-								let res = await VideoService.getAll(
-									this.page,
-									this.limit
-								);
+								let res =
+									await HistoryService.getHistoryOfCurrent(
+										this.page,
+										this.limit
+									);
 								if (res.status == 200) {
 									this.videos = [
 										...this.videos,
@@ -63,20 +72,20 @@ export default {
 	},
 	async created() {
 		try {
-			let res = await VideoService.getAll(this.page, this.limit);
-			if (res.status == 200) {
-				this.videos = res.data.docs;
-				this.page = res.data.nextPage;
-				this.total = res.data.totalPages;
+			let history = await HistoryService.getHistoryOfCurrent(
+				this.page,
+				this.limit
+			);
+			if (history.status == 200) {
+				this.historyList = history.data.docs;
+				this.page = history.data.nextPage;
+				this.total = history.data.totalPages;
 			} else {
-				console.log(res);
+				console.log(history.data.message);
 			}
 		} catch (err) {
 			console.log(err);
 		}
-	},
-	mounted() {
-		this.scrollTrigger();
 	},
 };
 </script>

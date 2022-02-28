@@ -8,9 +8,9 @@ autoIncrement.initialize(connection);
 
 const videoHistorySchema = new mongoose.Schema({
     Video:{
-        type: String,
+        type: Number,
         required: true,
-        trim: true
+        ref: "Video"
     },
     Channel: {
         type: Number,
@@ -25,6 +25,8 @@ const videoHistorySchema = new mongoose.Schema({
 ,{
     timestamps: true
 }); 
+
+videoHistorySchema.index({ Video: 1, Channel: 1 }, { unique: 1 });
 
 videoHistorySchema.plugin(mongoosePaginate);
 videoHistorySchema.plugin(autoIncrement.plugin, {

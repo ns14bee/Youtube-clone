@@ -4,6 +4,8 @@ import upperFirst from 'lodash/upperFirst'
 import camelCase from 'lodash/camelCase'
 import * as VueObserveVisibility from "vue-observe-visibility";
 // import * as IntersectionObserver from 'intersection-observer';
+import Vue3VideoPlayer from '@cloudgeek/vue3-video-player';
+import '@cloudgeek/vue3-video-player/dist/vue3-video-player.css';
 
 
 import router from  './Router/router.js'
@@ -24,6 +26,11 @@ requireComponent.keys().forEach(fileName => {
 
     app.component(componentName,componentConfig.default || componentConfig)
 })
+
+
+app.use(Vue3VideoPlayer, {
+    lang: 'en'
+});
 
 // app.use(VueReCaptcha, { siteKey: "6LdJPSkeAAAAAOzcSn180SjnnEUozY-FjA0vQ8m3" });
 app.use(VueObserveVisibility);

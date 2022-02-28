@@ -265,6 +265,7 @@ class videoDomain{
     createVideo = async (req,res) => {
         try{
             let data = req.body;
+            console.log(req.files);
             let {error} = validateVideo(data);
             if(error){
                 res.status(400).json({

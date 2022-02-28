@@ -360,22 +360,33 @@
 				<i class="far fa-user-circle sign-up-icon"></i>
 				<span class="sign-up-text">&nbsp;SIGN IN</span></BaseButton
 			>
+			<login-model v-if="active" @close="close" />
 		</div>
 	</div>
 </template>
 
 <script>
 import mixin from "../../../util/themeMixin.js";
+import LoginModel from "./Login-model.vue";
 export default {
 	mixins: [mixin],
+	components: {
+		LoginModel,
+	},
 	data() {
 		return {
 			themeType: null,
+			active: false,
+			hidden: true,
 		};
 	},
 	methods: {
 		signIn() {
-			this.$router.push("/login/");
+			// this.$router.push("/login/");
+			this.active = true;
+		},
+		close() {
+			this.active = false;
 		},
 		changeTheme() {
 			this.$store.dispatch("theme/changeTheme", !this.theme);

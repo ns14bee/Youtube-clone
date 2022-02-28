@@ -58,7 +58,7 @@ let validateUpdateVideo = (file) => {
     const schema = joi.object({
         Title: joi.string().max(255),
         Description: joi.string(),
-        Type: joi.number(),
+        Type: joi.number()
     });
     return schema.validate(file);
 }
@@ -96,13 +96,20 @@ let validatePlaylistUpdate = (file) =>{
     return schema.validate(file);
 }
 
-
 let validatePlaylistVideos = (file) => {
     const schema = joi.object({
         Videos: joi.array().required()
     })
     return schema.validate(file);
 }
+
+let validateHistory = (file) => {
+    const schema = joi.object({
+        Duration: joi.number().required()
+    })
+    return schema.validate(file);
+}
+
 module.exports = {
     validateUser, 
     validateLogin,
@@ -113,5 +120,6 @@ module.exports = {
     validatePlaylist,
     validatePlaylistVideos,
     validateUpdateVideo,
-    validatePlaylistUpdate
+    validatePlaylistUpdate,
+    validateHistory
 };

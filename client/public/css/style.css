@@ -587,14 +587,14 @@
 	z-index: 9 !important;
 }
 .video-player-body {
-	min-height: 40vh !important;
+	min-height: 70vh !important;
 	height: auto !important;
 	width: auto !important;
-	min-width: 60vh !important;
+	min-width: 90vw !important;
 }
 .video-player {
-	height: 70vh !important;
-	width: 90vw !important;
+	height: 60vh !important;
+	width: 80vw !important;
 }
 .video-list-body {
 	padding-top: 20px !important;
@@ -784,15 +784,15 @@
 		align-items: start !important;
 	}
 	.video-player-body {
-		min-height: 40vh !important;
+		padding: 20px !important;
+		min-height: 100vh !important;
 		height: auto !important;
 		width: auto !important;
-		min-width: 50vw;
+		min-width: 60vw !important;
 	}
 	.video-player {
-		padding: 20px !important;
-		height: 80vh !important;
-		width: 62vw !important;
+		height: 50vh !important;
+		width: 60vw !important;
 	}
 	.video-list-body {
 		padding-top: 30px !important;

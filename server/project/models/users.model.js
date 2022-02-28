@@ -12,6 +12,7 @@ const userSchema = new mongoose.Schema({
     UserName : {
         type: String,
         required : true,
+        lowercase: true,
         trim: true,
         minlength: [3, "Min 3 chars"],
         maxlength: [30,"Max 30 chars"]
@@ -19,6 +20,7 @@ const userSchema = new mongoose.Schema({
     Email: {
         type: String,
         required: true,
+        lowercase: true,
         unique: true,
         trim: true
     },
