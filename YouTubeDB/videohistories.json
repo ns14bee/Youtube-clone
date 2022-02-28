@@ -1,0 +1,73 @@
+[{
+  "_id": 2,
+  "Video": 2,
+  "Channel": 1,
+  "Duration": 20,
+  "createdAt": {
+    "$date": "2022-02-25T07:08:15.721Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-26T22:42:17.803Z"
+  },
+  "__v": 0
+},{
+  "_id": 10,
+  "Video": 2,
+  "Channel": 6,
+  "Duration": 0,
+  "createdAt": {
+    "$date": "2022-02-26T22:11:16.103Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-26T22:54:19.857Z"
+  },
+  "__v": 0
+},{
+  "_id": 11,
+  "Video": 4,
+  "Channel": 6,
+  "Duration": 25,
+  "createdAt": {
+    "$date": "2022-02-26T22:14:54.341Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-26T22:14:54.341Z"
+  },
+  "__v": 0
+},{
+  "_id": 12,
+  "Video": 3,
+  "Channel": 6,
+  "Duration": 0,
+  "createdAt": {
+    "$date": "2022-02-26T22:32:35.668Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-26T22:32:35.668Z"
+  },
+  "__v": 0
+},{
+  "_id": 13,
+  "Video": 11,
+  "Channel": 1,
+  "Duration": 25,
+  "createdAt": {
+    "$date": "2022-02-27T23:16:11.376Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-27T23:17:07.065Z"
+  },
+  "__v": 0
+},{
+  "_id": 14,
+  "Video": 7,
+  "Channel": 1,
+  "Duration": 14,
+  "createdAt": {
+    "$date": "2022-02-28T00:40:24.146Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-28T00:40:24.146Z"
+  },
+  "__v": 0
+}]

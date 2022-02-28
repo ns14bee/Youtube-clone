@@ -1,0 +1,61 @@
+[{
+  "_id": 1,
+  "Title": "Playlist1-demo",
+  "Channel": 1,
+  "Type": 1,
+  "createdAt": {
+    "$date": "2022-01-07T11:50:31.112Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-07T11:50:31.112Z"
+  },
+  "__v": 0
+},{
+  "_id": 2,
+  "Title": "Playlist2-demo",
+  "Channel": 2,
+  "Type": 2,
+  "createdAt": {
+    "$date": "2022-01-07T11:50:47.354Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-07T11:50:47.354Z"
+  },
+  "__v": 0
+},{
+  "_id": 3,
+  "Title": "Playlist3-demo",
+  "Channel": 3,
+  "Type": 3,
+  "createdAt": {
+    "$date": "2022-01-07T11:51:04.063Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-07T11:51:04.063Z"
+  },
+  "__v": 0
+},{
+  "_id": 4,
+  "Title": "Playlist4-demo",
+  "Channel": 3,
+  "Type": 1,
+  "createdAt": {
+    "$date": "2022-01-07T11:51:15.831Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-07T11:51:15.831Z"
+  },
+  "__v": 0
+},{
+  "_id": 5,
+  "Title": "Playlist5-demo",
+  "Channel": 3,
+  "Type": 1,
+  "createdAt": {
+    "$date": "2022-01-10T11:43:30.840Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-10T11:43:30.840Z"
+  },
+  "__v": 0
+}]

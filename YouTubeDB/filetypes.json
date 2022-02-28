@@ -1,0 +1,111 @@
+[{
+  "_id": 1,
+  "FileType": "MP4",
+  "File": 1,
+  "createdAt": {
+    "$date": "2022-01-05T06:52:31.614Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-05T06:52:31.614Z"
+  },
+  "__v": 0
+},{
+  "_id": 2,
+  "FileType": "MPEG4",
+  "File": 1,
+  "createdAt": {
+    "$date": "2022-01-05T06:52:32.126Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-05T06:52:32.126Z"
+  },
+  "__v": 0
+},{
+  "_id": 3,
+  "FileType": "WebM",
+  "File": 1,
+  "createdAt": {
+    "$date": "2022-01-05T06:52:32.171Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-05T06:52:32.171Z"
+  },
+  "__v": 0
+},{
+  "_id": 4,
+  "FileType": "FLV",
+  "File": 1,
+  "createdAt": {
+    "$date": "2022-01-05T06:52:32.199Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-05T06:52:32.199Z"
+  },
+  "__v": 0
+},{
+  "_id": 5,
+  "FileType": "3GP",
+  "File": 1,
+  "createdAt": {
+    "$date": "2022-01-05T06:52:32.226Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-05T06:52:32.226Z"
+  },
+  "__v": 0
+},{
+  "_id": 6,
+  "FileType": "BMP",
+  "File": 2,
+  "createdAt": {
+    "$date": "2022-01-05T06:52:32.236Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-05T06:52:32.236Z"
+  },
+  "__v": 0
+},{
+  "_id": 7,
+  "FileType": "PNG",
+  "File": 2,
+  "createdAt": {
+    "$date": "2022-01-05T06:52:32.250Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-05T06:52:32.250Z"
+  },
+  "__v": 0
+},{
+  "_id": 8,
+  "FileType": "JPG",
+  "File": 2,
+  "createdAt": {
+    "$date": "2022-01-05T06:52:32.264Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-05T06:52:32.264Z"
+  },
+  "__v": 0
+},{
+  "_id": 9,
+  "FileType": "JPEG",
+  "File": 2,
+  "createdAt": {
+    "$date": "2022-01-05T06:52:32.282Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-05T06:52:32.282Z"
+  },
+  "__v": 0
+},{
+  "_id": 10,
+  "FileType": "GIF",
+  "File": 2,
+  "createdAt": {
+    "$date": "2022-01-05T06:52:32.296Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-05T06:52:32.296Z"
+  },
+  "__v": 0
+}]

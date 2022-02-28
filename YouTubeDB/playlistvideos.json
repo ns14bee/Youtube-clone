@@ -1,0 +1,254 @@
+[{
+  "_id": 1,
+  "Playlist": 3,
+  "Video": 1,
+  "createdAt": {
+    "$date": "2022-01-07T11:53:58.673Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-07T11:53:58.673Z"
+  },
+  "__v": 0
+},{
+  "_id": 2,
+  "Playlist": 3,
+  "Video": 2,
+  "createdAt": {
+    "$date": "2022-01-07T11:53:58.684Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-07T11:53:58.684Z"
+  },
+  "__v": 0
+},{
+  "_id": 3,
+  "Playlist": 3,
+  "Video": 3,
+  "createdAt": {
+    "$date": "2022-01-07T11:53:58.690Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-07T11:53:58.690Z"
+  },
+  "__v": 0
+},{
+  "_id": 4,
+  "Playlist": 4,
+  "Video": 1,
+  "createdAt": {
+    "$date": "2022-01-07T11:54:14.276Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-07T11:54:14.276Z"
+  },
+  "__v": 0
+},{
+  "_id": 5,
+  "Playlist": 4,
+  "Video": 2,
+  "createdAt": {
+    "$date": "2022-01-07T11:54:14.291Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-07T11:54:14.291Z"
+  },
+  "__v": 0
+},{
+  "_id": 6,
+  "Playlist": 4,
+  "Video": 3,
+  "createdAt": {
+    "$date": "2022-01-07T11:54:14.305Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-07T11:54:14.305Z"
+  },
+  "__v": 0
+},{
+  "_id": 7,
+  "Playlist": 4,
+  "Video": 4,
+  "createdAt": {
+    "$date": "2022-01-07T11:54:14.311Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-07T11:54:14.311Z"
+  },
+  "__v": 0
+},{
+  "_id": 8,
+  "Playlist": 2,
+  "Video": 1,
+  "createdAt": {
+    "$date": "2022-01-07T11:54:22.679Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-07T11:54:22.679Z"
+  },
+  "__v": 0
+},{
+  "_id": 9,
+  "Playlist": 2,
+  "Video": 2,
+  "createdAt": {
+    "$date": "2022-01-07T11:54:22.686Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-07T11:54:22.686Z"
+  },
+  "__v": 0
+},{
+  "_id": 10,
+  "Playlist": 2,
+  "Video": 3,
+  "createdAt": {
+    "$date": "2022-01-07T11:54:22.692Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-07T11:54:22.692Z"
+  },
+  "__v": 0
+},{
+  "_id": 11,
+  "Playlist": 2,
+  "Video": 4,
+  "createdAt": {
+    "$date": "2022-01-07T11:54:22.700Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-07T11:54:22.700Z"
+  },
+  "__v": 0
+},{
+  "_id": 12,
+  "Playlist": 1,
+  "Video": 1,
+  "createdAt": {
+    "$date": "2022-01-07T11:54:33.742Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-07T11:54:33.742Z"
+  },
+  "__v": 0
+},{
+  "_id": 13,
+  "Playlist": 1,
+  "Video": 2,
+  "createdAt": {
+    "$date": "2022-01-07T11:54:33.758Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-07T11:54:33.758Z"
+  },
+  "__v": 0
+},{
+  "_id": 14,
+  "Playlist": 1,
+  "Video": 3,
+  "createdAt": {
+    "$date": "2022-01-07T11:54:33.771Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-07T11:54:33.771Z"
+  },
+  "__v": 0
+},{
+  "_id": 15,
+  "Playlist": 1,
+  "Video": 4,
+  "createdAt": {
+    "$date": "2022-01-07T11:54:33.781Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-07T11:54:33.781Z"
+  },
+  "__v": 0
+},{
+  "_id": 16,
+  "Playlist": 2,
+  "Video": 5,
+  "createdAt": {
+    "$date": "2022-01-07T11:54:51.871Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-07T11:54:51.871Z"
+  },
+  "__v": 0
+},{
+  "_id": 17,
+  "Playlist": 2,
+  "Video": 6,
+  "createdAt": {
+    "$date": "2022-01-07T11:54:51.896Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-07T11:54:51.896Z"
+  },
+  "__v": 0
+},{
+  "_id": 18,
+  "Playlist": 5,
+  "Video": 1,
+  "createdAt": {
+    "$date": "2022-01-10T11:44:27.268Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-10T11:44:27.268Z"
+  },
+  "__v": 0
+},{
+  "_id": 19,
+  "Playlist": 5,
+  "Video": 2,
+  "createdAt": {
+    "$date": "2022-01-10T11:44:27.401Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-10T11:44:27.401Z"
+  },
+  "__v": 0
+},{
+  "_id": 20,
+  "Playlist": 5,
+  "Video": 3,
+  "createdAt": {
+    "$date": "2022-01-10T11:44:27.437Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-10T11:44:27.437Z"
+  },
+  "__v": 0
+},{
+  "_id": 21,
+  "Playlist": 5,
+  "Video": 4,
+  "createdAt": {
+    "$date": "2022-01-10T11:45:48.987Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-10T11:45:48.987Z"
+  },
+  "__v": 0
+},{
+  "_id": 22,
+  "Playlist": 5,
+  "Video": 5,
+  "createdAt": {
+    "$date": "2022-01-10T11:45:48.996Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-10T11:45:48.996Z"
+  },
+  "__v": 0
+},{
+  "_id": 23,
+  "Playlist": 5,
+  "Video": 6,
+  "createdAt": {
+    "$date": "2022-01-10T11:46:05.078Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-10T11:46:05.078Z"
+  },
+  "__v": 0
+}]

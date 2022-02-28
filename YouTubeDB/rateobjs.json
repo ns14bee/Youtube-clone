@@ -1,0 +1,31 @@
+[{
+  "_id": 1,
+  "rateType": "Like",
+  "createdAt": {
+    "$date": "2022-01-03T11:24:13.315Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-03T11:24:13.315Z"
+  },
+  "__v": 0
+},{
+  "_id": 2,
+  "rateType": "Dislike",
+  "createdAt": {
+    "$date": "2022-01-03T11:24:19.685Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-03T11:24:19.685Z"
+  },
+  "__v": 0
+},{
+  "_id": 3,
+  "rateType": "Neutral",
+  "createdAt": {
+    "$date": "2022-01-03T11:24:19.747Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-03T11:24:19.747Z"
+  },
+  "__v": 0
+}]

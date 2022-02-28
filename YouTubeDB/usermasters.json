@@ -1,0 +1,197 @@
+[{
+  "_id": 1,
+  "UserName": "Bee",
+  "Email": "niraj.surati01@gmail.com",
+  "Password": "$2b$10$4JEcSG5NVnChuvhniOmVBeYcG7MPp3CdWW3DplK6xidVKRYivXFn2",
+  "Role": 1,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-01-03T11:29:47.594Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-03T11:29:47.594Z"
+  },
+  "__v": 0
+},{
+  "_id": 2,
+  "UserName": "Bsaga",
+  "Email": "bhattsagar112@gmail.com",
+  "Password": "$2b$10$eeDSTvf/FrQoIv3sXRies.2eCi46hNUR7qc9hcXz/rcCH/.cQlgFK",
+  "Role": 2,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-01-03T12:21:53.003Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-05T05:03:13.327Z"
+  },
+  "__v": 0
+},{
+  "_id": 3,
+  "UserName": "Rock",
+  "Email": "meetshah@gmail.com",
+  "Password": "$2b$10$Z50DO2O0Vxr2RMrnB1s6mODRDd9dqxyXAAoG3j84USdiQrXJOgeCe",
+  "Role": 2,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-01-06T05:27:36.191Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-06T05:27:36.191Z"
+  },
+  "__v": 0
+},{
+  "_id": 4,
+  "UserName": "Vanny",
+  "Email": "vinodpatel@gmail.com",
+  "Password": "$2b$10$RrHQnCHe01llo8815GXLZOaugPOn44Qu/cxclqkyBS5.vH1OwIdB6",
+  "Role": 2,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-01-06T05:27:58.055Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-06T05:27:58.055Z"
+  },
+  "__v": 0
+},{
+  "_id": 5,
+  "UserName": "harsh01",
+  "Email": "harshpatel@gmail.com",
+  "Password": "$2b$10$z9Tc/tlgv.QouYtZxm6oQeeRYkUdPVIkZbgrcsiP/fDTciMO5uhVq",
+  "Role": 2,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-01-06T05:28:21.287Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-06T05:28:21.287Z"
+  },
+  "__v": 0
+},{
+  "_id": 6,
+  "UserName": "Bee",
+  "Email": "niraj.surati02@gmail.com",
+  "Password": "$2b$10$Jo7cj/f6Cm2un2yLBCDVJOWDlC824oSYOPLSkCsWCc0dCfMBFCkza",
+  "Role": 2,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-01-12T11:04:19.614Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-12T11:04:19.614Z"
+  },
+  "__v": 0
+},{
+  "_id": 7,
+  "UserName": "Bee12",
+  "Email": "niraj.surati03@gmail.com",
+  "Password": "$2b$10$eM1T3MFSVlrynr96XtwD6.xXK81B0RnKTefw3zHPGibksFilVPZEi",
+  "Role": 2,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-01-12T13:01:33.855Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-12T13:01:33.855Z"
+  },
+  "__v": 0
+},{
+  "_id": 8,
+  "UserName": "bee",
+  "Email": "niraj.surati05@gmail.com",
+  "Password": "$2b$10$7S6QuFNwYbL3Noq41rOkJOk.m.0wwZIevgPlM2nBmpSxIZkIXiBmS",
+  "Role": 2,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-02-03T10:56:20.484Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-03T10:56:20.484Z"
+  },
+  "__v": 0
+},{
+  "_id": 9,
+  "UserName": "NoPixel",
+  "Email": "hardik01@gmail.com",
+  "Password": "$2b$10$uuyt4.zzqrqHyRB80XnZCevSVyEqeEXpbQVrZCidouaB/vPBmyHaG",
+  "Role": 2,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-02-10T07:26:37.630Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-10T07:26:37.630Z"
+  },
+  "__v": 0
+},{
+  "_id": 10,
+  "UserName": "Shadow",
+  "Email": "Usagisailor@gmail.com",
+  "Password": "$2b$10$zKEsglukekXlP8fo1yKv3uv3ZPW4f/3T0i6LyjijAK1ULZHZvmxse",
+  "Role": 2,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-02-22T19:19:55.546Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-22T19:19:55.546Z"
+  },
+  "__v": 0
+},{
+  "_id": 11,
+  "UserName": "bruh",
+  "Email": "bruh@bruh.com",
+  "Password": "$2b$10$EEElTmVstUiguLEPY8cWyOivNSSb8AGLlcchF46qCz8/Anafujw5G",
+  "Role": 2,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-02-22T19:21:47.073Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-22T19:21:47.073Z"
+  },
+  "__v": 0
+},{
+  "_id": 12,
+  "UserName": "PewDiePie",
+  "Email": "pewd@gmail.com",
+  "Password": "$2b$10$bzJyGw.Q.h3Hey4AuOxDZeGdTlcYmeczdEe20TLQlbQhwcJNV9mW.",
+  "Role": 2,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-02-22T19:23:13.113Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-22T19:23:13.113Z"
+  },
+  "__v": 0
+},{
+  "_id": 13,
+  "UserName": "jacksepticeye",
+  "Email": "jack@gmail.com",
+  "Password": "$2b$10$3AIFmI.m.OfE57hEGCpNZ.RqL783YrNsaaEBjpjZzKaFC3eTvRMlG",
+  "Role": 2,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-02-22T19:24:04.087Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-22T19:24:04.087Z"
+  },
+  "__v": 0
+},{
+  "_id": 14,
+  "UserName": "Sandy",
+  "Email": "NIRAJ.SURATI01@GMAIL.COM",
+  "Password": "$2b$10$jimc8Ow1nSdszga1OE5MrucCbGVTY0IAZ5c6ko9PObPX1.9lqx7mi",
+  "Role": 2,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-02-25T07:33:00.360Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-25T07:33:00.360Z"
+  },
+  "__v": 0
+}]

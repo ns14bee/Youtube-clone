@@ -1,0 +1,229 @@
+[{
+  "_id": 1,
+  "Subscriber": 1,
+  "Creator": 2,
+  "Active": false,
+  "createdAt": {
+    "$date": "2022-01-06T04:54:20.756Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-23T13:34:42.426Z"
+  },
+  "__v": 0
+},{
+  "_id": 2,
+  "Subscriber": 2,
+  "Creator": 1,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-01-06T04:56:09.964Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-06T04:56:09.964Z"
+  },
+  "__v": 0
+},{
+  "_id": 3,
+  "Subscriber": 5,
+  "Creator": 1,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-01-06T05:31:27.821Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-21T01:20:26.185Z"
+  },
+  "__v": 0
+},{
+  "_id": 4,
+  "Subscriber": 4,
+  "Creator": 1,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-01-06T05:31:31.092Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-06T05:31:31.092Z"
+  },
+  "__v": 0
+},{
+  "_id": 5,
+  "Subscriber": 3,
+  "Creator": 1,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-01-06T05:31:34.402Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-06T05:31:34.402Z"
+  },
+  "__v": 0
+},{
+  "_id": 6,
+  "Subscriber": 5,
+  "Creator": 2,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-01-06T05:31:44.083Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-06T05:31:44.083Z"
+  },
+  "__v": 0
+},{
+  "_id": 7,
+  "Subscriber": 4,
+  "Creator": 2,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-01-06T05:31:47.805Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-06T05:31:47.805Z"
+  },
+  "__v": 0
+},{
+  "_id": 8,
+  "Subscriber": 3,
+  "Creator": 2,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-01-06T05:31:50.432Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-06T05:31:50.432Z"
+  },
+  "__v": 0
+},{
+  "_id": 9,
+  "Subscriber": 1,
+  "Creator": 3,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-01-06T05:32:10.542Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-21T02:10:56.866Z"
+  },
+  "__v": 0
+},{
+  "_id": 10,
+  "Subscriber": 2,
+  "Creator": 3,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-01-06T05:32:15.329Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-06T05:32:15.329Z"
+  },
+  "__v": 0
+},{
+  "_id": 11,
+  "Subscriber": 3,
+  "Creator": 4,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-01-06T05:37:52.375Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-06T05:37:52.375Z"
+  },
+  "__v": 0
+},{
+  "_id": 12,
+  "Subscriber": 3,
+  "Creator": 5,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-01-06T05:37:56.164Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-06T05:37:56.164Z"
+  },
+  "__v": 0
+},{
+  "_id": 13,
+  "Subscriber": 2,
+  "Creator": 5,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-01-06T05:46:43.808Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-23T09:59:50.385Z"
+  },
+  "__v": 0
+},{
+  "_id": 14,
+  "Subscriber": 1,
+  "Creator": 4,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-02-21T02:11:04.768Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-21T02:11:04.768Z"
+  },
+  "__v": 0
+},{
+  "_id": 15,
+  "Subscriber": 1,
+  "Creator": 9,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-02-21T02:11:17.118Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-24T11:10:55.253Z"
+  },
+  "__v": 0
+},{
+  "_id": 16,
+  "Subscriber": 1,
+  "Creator": 5,
+  "Active": false,
+  "createdAt": {
+    "$date": "2022-02-21T06:50:00.794Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-23T07:39:27.509Z"
+  },
+  "__v": 0
+},{
+  "_id": 17,
+  "Subscriber": 6,
+  "Creator": 1,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-02-22T11:22:36.625Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-26T14:36:35.822Z"
+  },
+  "__v": 0
+},{
+  "_id": 18,
+  "Subscriber": 6,
+  "Creator": 2,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-02-25T07:39:06.825Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-25T07:39:30.241Z"
+  },
+  "__v": 0
+},{
+  "_id": 19,
+  "Subscriber": 6,
+  "Creator": 9,
+  "Active": true,
+  "createdAt": {
+    "$date": "2022-02-25T09:08:57.019Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-25T09:08:57.019Z"
+  },
+  "__v": 0
+}]
